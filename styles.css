@@ -1,0 +1,117 @@
+.herosection{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(classroom2.jpg);
+    background-size: cover;
+    min-height: 45vh;
+    text-align: center;
+    color: white;
+    padding: 10%;
+    font-size: xx-large;
+}
+
+.header{
+    display: flex;background-color: beige;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button{
+    color:white;
+    margin-right: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 15px 10px black;
+    padding:5px 10px;
+    font-size: 20px;
+    background-image: linear-gradient(to left,rgb(43, 18, 154),rgb(197, 163, 239))
+}
+
+.aboutus{
+   text-align: center; 
+   background-color:beige;
+   color:black;
+   padding-top: 40px;
+   padding-bottom: 80px;
+}
+
+.programs{
+    display: flex;
+    font-weight: bold;
+    
+    
+}
+.class{
+ border: 1px solid;
+ flex: 1;
+ height: 200px;
+ text-align: center;
+ background-color: beige;
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+
+ }
+.academics{
+    background-color:black ;
+    text-align: center;
+    padding: 20px 20px;
+    padding-bottom: 100px;
+    color: white;
+}
+.gallery div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+   
+}
+.gallery{
+     text-align: center;
+    background-color: aquamarine;
+    color: black;
+    padding: 20px 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+.contact{
+    text-align: center;
+    background-color: black;
+     padding: 20px 20px;
+    padding-bottom: 100px;
+    color: white;
+    padding-top: 150px;
+}
+.form{
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    background-color: rgb(53, 27, 78);
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: 9px 8px 5px black;
+
+}
+.formcc{
+    justify-content: center;
+    display: block;
+}
+.footer{
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+.note{
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+     padding-bottom: 100px;
+}
